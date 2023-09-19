@@ -1,0 +1,17 @@
+/*
+ * tweak.css
+ * GPL v3
+ *
+ * Johnny Chan
+ */
+/*********************************************
+ * TWEAKED STYLES IN REVEAL.CSS
+ *********************************************/
+
+.reveal { font-size: 30px; }
+.reveal pre { font-size: 30px; width: 100%; }
+.reveal pre code { max-height: 550px; }
+.reveal tr:hover { color: #CC0000; }
+.reveal .smalltr tr {font-size: 20px; }
+
+/* .reveal p {text-align: left; } */
