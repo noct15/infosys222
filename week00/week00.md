@@ -42,7 +42,7 @@ Note: Due to Anzac Day, we would not have any lab in Week 07.
 
 📢 Students __must__ [pass](https://uoa.custhelp.com/app/answers/detail/a_id/2748/~/marking-schemes-or-grade-scales-at-the-university-of-auckland) the tests combined, and all non-test assessments combined, to pass the course
 
-Note: For the lab assessment, each one of them is worth 2% and only the best 5 scored ones would be counted towards the course.
+Note: There is no exam in this course. For the lab assessment, each one of them is worth 2% and only the best 5 scored ones would be counted towards the course.
 
 
 
