@@ -67,8 +67,6 @@ key | key | key
 
 - 🤔 Why do we care if entity sets are strong or weak?
 
-- 🤔 What do we gain if we include that in the data model?
-
 
 ## Ternary relationship
 ![ternary](ternary.svg)
