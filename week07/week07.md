@@ -34,14 +34,14 @@
 
 
 ## Multi-row function
-| Function | Description     |
-| :------------- | :------------- |
-| COUNT(*) or COUNT(X) | The COUNT(X) function returns a count of the number of times that X is not NULL in a group. The COUNT(*) function (with no arguments) returns the total number of rows in the group |
-| MAX(X) | It returns the maximum value of all values in the group |
-| MIN(X) | It returns the minimum value of all values in the group |
-| AVG(X) | It returns the average value of all values in the group |
-|SUM(X) or TOTAL(X) | It returns sum of all non-NULL values in the group |
-|GROUP_CONCAT(X,Y) | It returns a string which is the concatenation of all non-NULL values of X. If parameter Y is present then it is used as the separator between instances of X |
+Function | Description
+--- | ---
+COUNT(X) or COUNT(\*) | The COUNT(X) function returns a count of the number of times that X is not NULL in a group. The COUNT(*) function (with no arguments) returns the total number of rows in the group
+MAX(X) | It returns the maximum value of all values in the group
+MIN(X) | It returns the minimum value of all values in the group
+AVG(X) | It returns the average value of all values in the group
+SUM(X) or TOTAL(X) | It returns sum of all non-NULL values in the group
+GROUP_CONCAT(X,Y) | It returns a string which is the concatenation of all non-NULL values of X. If parameter Y is present then it is used as the separator between instances of X
 
 
 ## GROUP BY clause

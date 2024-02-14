@@ -575,6 +575,7 @@ staffCode   monthly
 | RTRIM(X) or RTRIM(X,Y) | It returns a string formed by removing any and all characters that appear in Y (or white spaces if Y is not provided) from the right side of X |
 | LTRIM(X) or LTRIM(X,Y) | It returns a string formed by removing any and all characters that appear in Y (or white spaces if Y is not provided) from the left side of X |
 | TRIM(X) or TRIM(X,Y) | It returns a string formed by removing any and all characters that appear in Y (or white spaces if Y is not provided) from both ends of X |
+
 <!-- .element: class="smalltr" -->
 
 

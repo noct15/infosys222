@@ -131,7 +131,7 @@ Inception | 2010 | 148 | colour
 - It is less common for the schema of a relation to change, and it could be very expensive when that happens (🤔 Why?)
 
 
-## Key
+## Primary key
 - There are many constraints on relations that the relational data model allows. The most fundamental one is the primary key constraint
 
 - A set of attributes forms a __key__ for a relation if we do not allow two tuples in a relation instance to have the same values in all the attributes of the key
@@ -142,6 +142,19 @@ Inception | 2010 | 148 | colour
 - 🤔 Underline/highlight the attribute(s) that could form the key:
 
 	Movie (<span class="fragment highlight-red">title</span>, <span class="fragment highlight-red">year</span>, length, filmType)
+
+
+## Foreign key
+- Another type of constraint on relations is the foreign key constraint. A foreign key specifies that an attribute from a tuple in one relation maps to a tuple in another relation
+
+- Example: The relations Movie and FilmType
+
+    - Movie (<span class="fragment highlight-red">title, year</span>, length, <span class="fragment highlight-blue">filmType</span>)
+    - FilmType (<span class="fragment highlight-red">filmType</span>, description)
+
+- 🤔 Why do we need foreign key in a relational data model?
+
+Note: When there are two (or more) relations, they could form a relationship among themselves. The nature of any relationship could be one-to-one, one-to-many, or many-to-many, but the relational model could only handle one-to-one and one-to-many. And each relationship would depend on a foreign key in one of the relations. We will discuss all these concepts further in coming lectures.
 
 
 
@@ -166,9 +179,7 @@ accNo | balance | type
 
 - Make as many assumptions about the data as needed
 
-[![Interstellar](interstellar.jpg)<!-- .element: style="width:40%; height:40%" -->](http://www.imdb.com/title/tt0816692/)
-
-Note: When there are two (or more) relations, they could form a relationship among themselves. The nature of any relationship could be one-to-one, one-to-many, or many-to-many, but the relational model could only handle one-to-one and one-to-many. And each relationship would depend on a foreign key in one of the relations. We will discuss all these concepts further in coming lectures.
+[![Interstellar](interstellar.png)<!-- .element: style="width:50%; height:50%" -->](http://www.imdb.com/title/tt0816692/)
 
 
 
@@ -223,7 +234,7 @@ Note: When there are two (or more) relations, they could form a relationship amo
 - 🤔 How to delete an existing attribute from the relation R?
 
 
-## Declaring key constraint
+## Declaring primary key constraint
 - In SQL, key(s) is/are declared when a relation is defined from the schema:
 	```sql
 	CREATE TABLE Movie (
@@ -300,11 +311,11 @@ Note: When there are two (or more) relations, they could form a relationship amo
 ## 🗒 Summary
 - By now you should:
 
-	- know the vocabulary of the relational data model: relation, tuple, attribute, domain, schema, primary key, constraint etc
+	- know the vocabulary of the relational data model: relation, tuple, attribute, domain, schema, primary key, foreign key, constraint etc
 
 	- know how to represent a relation using a schema
 
-	- have some basic ideas of how to choose a primary key for a relation
+	- have some basic ideas of how to choose a primary key for a relation and what a foreign key is used for
 
 	- understand that every decision builds on at least one assumption
 
