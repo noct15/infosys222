@@ -179,7 +179,7 @@ accNo | balance | type
 
 - Make as many assumptions about the data as needed
 
-[![Interstellar](interstellar.png)<!-- .element: style="width:100%; height:100%" -->](http://www.imdb.com/title/tt0816692/)
+[![Interstellar](interstellar.png)<!-- .element: style="width:50%; height:50%" -->](http://www.imdb.com/title/tt0816692/)
 
 
 
