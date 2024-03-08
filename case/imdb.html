@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <!-- UPDATE NEEDED for title, description and author -->
-        <title>Reveal-lite Template</title>
+        <title>IMDB</title>
         <meta charset="utf-8" />
         <meta name="description" content="Presentation" />
         <meta name="author" content="Johnny Chan" />
@@ -21,7 +20,6 @@
         <link rel="stylesheet" href="../plugin/highlight/monokai.css" />
 
         <!-- Additional references -->
-        <!-- UPDATE NEEDED for file names and locations -->
         <link rel="icon" href="../asset/image/bulb.png" type="image/png" />
         <link rel="stylesheet" href="../asset/style/tweak.css" />
     </head>
@@ -29,9 +27,8 @@
     <body>
         <div class="reveal">
             <div class="slides">
-                <!-- UPDATE NEEDED for file name -->
                 <section
-                    data-markdown="reveal-lite-template.md"
+                    data-markdown="imdb.md"
                     data-separator="^\n\n\n"
                     data-separator-vertical="^\n\n"
                     data-separator-notes="^Note:"
@@ -47,6 +44,8 @@
         <script src="../plugin/markdown/markdown.js"></script>
         <script src="../plugin/highlight/highlight.js"></script>
         <script>
+            // Also available as an ES module, see:
+            // https://revealjs.com/initialization/
             Reveal.initialize({
                 width: 1100,
                 height: 800,
@@ -56,6 +55,7 @@
                 hash: true,
                 transition: "slide",
 
+                // Learn about plugins: https://revealjs.com/plugins/
                 plugins: [
                     RevealZoom,
                     RevealNotes,
