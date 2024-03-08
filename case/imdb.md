@@ -19,7 +19,7 @@
 
 
 ## User
-- While anyone could access IMDB without registration, only registered user can contribute to the online database 
+- While anyone could access IMDB without registration, only registered user can contribute to the online database
 
 - For each user, username, email, and joined date are stored as part of the registration. The user would need to specify if they represent an organisation or not
 
@@ -30,7 +30,7 @@
 ## Title
 - IMDB stores each media as a title. Each title has a name, runtime (i.e. duration) and short summary description. A title always belongs to a title type: movie, TV series, TV episode and so on. For a TV episode title, the database captures the season number, the episode number and the TV series that it is associated with
 
-- Each title must have be associated with at least one language, but it could relate to more than one languages. Similarly, each title must be associated with at least one country of origin, but it could relate to more than one countries of origin
+- Each title must be associated with at least one language, but it could relate to more than one languages. Similarly, each title must be associated with at least one country of origin, but it could relate to more than one countries of origin
 
 - A title must have at least one release date associated with one particular country, but it could have more than one release dates, where each of them associates with a different country
 
