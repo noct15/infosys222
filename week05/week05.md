@@ -93,13 +93,13 @@ stuNo | courseNo | stuName | stuAdd | courseDept
 
 
 ## Example
-ordID | ordDate | custID | custName | custAdd | prodID | prodDesc | prodFinish | unitPrice | quantity
---- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-1006 | 24/10/2015 | 2 | Value Furniture | Epsom | 7 | Dining Table | Natural Ash | 800.00 | 2
- | | | | | | 5 | Writer's Desk | Cherry | 325.00 | 2
- | | | | | | 4 | Entertainment Centre | Natural Maple | 650.00 | 1
-1007 | 25/10/2015 | 6 | Furniture Gallery | Greenlane | 11 | Dresser | Oak | 500.00 | 4
- | | | | | | 4 | Entertainment Centre | Natural Maple | 650.00 | 3
+| ordID | ordDate | custID | custName | custAdd | prodID | prodDesc | prodFinish | unitPrice | quantity |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1006 | 24/10/2015 | 2 | Value Furniture | Epsom | 7 | Dining Table | Natural Ash | 800.00 | 2 |
+| | | | | | 5 | Writer's Desk | Cherry | 325.00 | 2 |
+| | | | | | 4 | Entertainment Centre | Natural Maple | 650.00 | 1 |
+| 1007 | 25/10/2015 | 6 | Furniture Gallery | Greenlane | 11 | Dresser | Oak | 500.00 | 4 |
+| | | | | | 4 | Entertainment Centre | Natural Maple | 650.00 | 3 |
 
 <!-- .element: class="smalltr" -->
 
